@@ -1,23 +1,25 @@
-# CodeBot
+# CodeBot - Assistente Virtual com Interface Gráfica e Funcionalidades Avançadas
 
-**CodeBot** é um assistente virtual inteligente que utiliza a API Groq com o modelo Llama 3.1-70B para oferecer respostas detalhadas e interativas em diversas áreas como tecnologia, ciências, geografia, literatura, história, mitologia, games, neurociências, e muito mais. É projetado para ser amigável, espirituoso e eficiente, proporcionando uma experiência de aprendizado divertida e envolvente.
+## Descrição
+CodeBot é um assistente virtual projetado para interagir com diferentes tipos de dados, incluindo sites, PDFs e vídeos do YouTube, agora com funcionalidades adicionais. Ele utiliza a API Groq com o modelo Llama 3.1-70B para oferecer respostas informativas e descontraídas a uma ampla gama de perguntas, integrando uma interface gráfica desenvolvida com Tkinter.
 
----
+Atualmente, o arquivo principal só é acessível como **chatbor2-0** e ainda apresenta alguns erros. Estou trabalhando ativamente para corrigir esses problemas e aprimorar a experiência do usuário.
 
 ## Funcionalidades
+- **Carregar sites**: Insira uma URL para carregar o conteúdo textual de um site.
+- **Carregar PDFs**: Escolha um arquivo PDF local e extraia seu conteúdo.
+- **Carregar vídeos do YouTube**: Insira uma URL de vídeo do YouTube para analisar a transcrição.
+- **Chat interativo**: Envie mensagens e receba respostas do CodeBot de forma amigável e personalizada.
+- **Personalidade única**: O CodeBot combina conhecimento técnico e curiosidades com um toque de humor para tornar as interações mais envolventes.
 
-- **Respostas inteligentes:** Fornece respostas precisas baseadas no modelo Llama 3.1-70B.
-- **Integração com diferentes fontes:** Permite carregar dados de:
-  - Sites
-  - Documentos PDF
-  - Vídeos do YouTube
-- **Interatividade:** Responde a perguntas com base nos documentos carregados.
-- **Personalidade amigável:** Torna a experiência de aprendizado mais leve e descontraída.
-
----
+## Tecnologias Utilizadas
+- **Python**
+- **Tkinter**: Para criar a interface gráfica.
+- **LangChain Groq**: Para integração com o modelo de linguagem.
+- **dotenv**: Para gerenciar variáveis de ambiente de forma segura.
+- **YouTube e PDF Loaders**: Para carregamento e processamento de conteúdo multimídia.
 
 ## Requisitos
-
 1. **Python 3.7 ou superior**
 2. Instale as dependências necessárias utilizando o comando:
    ```bash
@@ -69,23 +71,21 @@
 3. **Interface de Terminal:**
    - Oferece uma experiência simples e intuitiva para interagir com o bot.
 
----
+## Problemas Conhecidos
+- Alguns erros podem ocorrer ao carregar determinados tipos de PDFs ou vídeos do YouTube.
+- O nome do arquivo atualmente é **chatbor2-0**, o que pode causar confusão. Planejo ajustar isso nas próximas atualizações.
+- A interface pode apresentar inconsistências ao lidar com arquivos de grande tamanho.
 
-## Contribuição
+## Melhorias Planejadas
+- Corrigir bugs conhecidos relacionados ao carregamento de vídeos e PDFs.
+- Implementar suporte a mais formatos de documentos e arquivos multimídia.
+- Melhorar a usabilidade da interface gráfica.
+- Alterar o nome do arquivo principal para maior clareza e padronização.
 
-1. Faça um fork deste repositório.
-2. Crie uma branch para suas alterações (`git checkout -b minha-alteracao`).
-3. Commit suas modificações (`git commit -m "Minha alteração"`).
-4. Envie para o repositório original (`git push origin minha-alteracao`).
-5. Crie um Pull Request.
-
----
-
-## Licença
-
-Este projeto está licenciado sob a MIT License. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
+## Contribuições
+Contribuições são bem-vindas! Se você encontrar um bug ou tiver sugestões para novas funcionalidades, fique à vontade para abrir um issue ou enviar um pull request no repositório.
 
 ---
 
-Aproveite e explore as funcionalidades do CodeBot para uma experiência interativa e enriquecedora!
+Obrigado por utilizar o CodeBot! Estou comprometido em continuar aprimorando esta ferramenta. 🚀
 
